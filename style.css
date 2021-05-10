@@ -6,7 +6,7 @@
 header{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to left, white 85%, black 20%);
+    background-image: linear-gradient(to left, white 20%, black 80%);
     
 }
 .navsec{
@@ -15,12 +15,12 @@ header{
     display:  flex;
     justify-content: space-around;
     align-items: center;
-    background-image: linear-gradient(to top, white 20%, black 80%);
+    background-image: linear-gradient(to top, white 5%, black 95%);
 }
 .logo{
     width: 25%;
     color: #fff;
-    background-image: linear-gradient(#8d98e3 40%, #854fee 60%);
+   /* background-image: linear-gradient(#8d98e3 40%, #854fee 60%);*/
     padding-left: 100px;
 box-sizing: border-box;
 }
@@ -31,8 +31,8 @@ box-sizing: border-box;
     animation-direction: alternate;
 }
 @keyframes aagepiche{
-    from{ padding-left: 40px;}
-    to { padding-right: 40px;}
+    from{ padding-left: 90px;}
+    to { padding-right: 90px;}
 }
 nav{
     width: 40%;
